@@ -4,13 +4,13 @@
 2. Run Postgress db in kubernetes and access it from outside cluster, you should be able to create table in that db. 
 
 3. Simple Application 
-> a. Create on application which will serve Rest endpoint /hello with response as system time and hit count (request counts) 
-b. Dockerise your application
-c. Deploy Your application in Kubernetes cluster as a deployment with 2 replicas 
-d. Try to access your application from outside the cluster 
-e. Check the response of endpoint. 
-f. Can you run your docker image as non-root user? 
-g. Can you make your image without root user? 
+    - Create on application which will serve Rest endpoint /hello with response as system time and hit count (request counts) 
+    - Dockerise your application
+    - Deploy Your application in Kubernetes cluster as a deployment with 2 replicas 
+    - Try to access your application from outside the cluster 
+    - Check the response of endpoint. 
+    - Can you run your docker image as non-root user? 
+    - Can you make your image without root user? 
 
 4. Run Wordpress application in kubernetes cluster and access its UI 
 
@@ -25,8 +25,8 @@ g. Can you make your image without root user?
 >Build small application using controller runtime and keep on printing the namespaced name of pod in terminal
 
 
-#### You can install kind cluster in your local to play with Kubernetes cluster. https://kind.sigs.k8s.io/ 
->Can you run multi node cluster using kind cluster 
-Can you load images from your system into kind cluster to run pod using that image 
+### You can install kind cluster in your local to play with Kubernetes cluster. https://kind.sigs.k8s.io/ 
+- Can you run multi node cluster using kind cluster 
+- Can you load images from your system into kind cluster to run pod using that image 
 
  
